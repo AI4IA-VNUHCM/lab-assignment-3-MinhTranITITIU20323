@@ -19,7 +19,7 @@ void swap(int *s1, int *s2)
 
 void Ex5(int arr[], int n){
 	//Your codes here
-    long int i=0,over=0,under=0,arrOver[n],arrUnder[n];
+    int i=0,over=0,under=0,arrOver[n],arrUnder[n];
 	for(i=0;i<n;i++){
 		if(arr[i]>0){
 			arrOver[over]=arr[i];
@@ -40,7 +40,7 @@ void Ex5(int arr[], int n){
 
 
 
-long int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	argc--;
 	int testcase[argc],i;
