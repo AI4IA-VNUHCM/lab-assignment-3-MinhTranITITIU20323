@@ -14,16 +14,16 @@ Ex:
 
 void Ex1(int arr[], int n){
 	//Your codes here
-    int i,j;
+    int i,j,flag;
 	for (i = 0, j = n-1; i < j; i++, j--) {
     if (arr[i] != arr[j]) {
         printf("asymmetric");
+		flag=1;
         break;
-    }
-	else{
-		printf("symmetric");
-		break;
+   		}
 	}
+	if(flag!=1){
+		printf("symmetric");
 	}
 }
 
