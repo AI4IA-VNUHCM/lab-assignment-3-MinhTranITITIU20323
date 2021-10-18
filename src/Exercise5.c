@@ -10,12 +10,6 @@ ______________________________________
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-void swap(int *s1, int *s2)
-{
-    int temp = *s1;
-    *s1 = *s2;
-    *s2 = temp;
-}
 
 void Ex5(int arr[], int n){
 	//Your codes here
